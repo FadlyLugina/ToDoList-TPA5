@@ -18,7 +18,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,6 +34,7 @@
 .title {
   font-weight: 700;
   margin: 10px;
+  padding-top: 100px;
 }
 
 div.form-input {
@@ -59,9 +59,7 @@ div.card {
   align-items: center;
   margin: 10px;
   padding: 10px 20px;
-  /* border: 10px; */
 }
-
 
 .checked-item {
   text-decoration: line-through;

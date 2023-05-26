@@ -31,7 +31,7 @@ function ToInput() {
             setName("");
             // setIsActive()
           }}
-          className="btn btn-secondary"
+          className="btn btn-success"
         >
           Add
         </button>
