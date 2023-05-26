@@ -9,7 +9,7 @@ function ToInput() {
   const dispatch = useDispatch();
   return (
     <div>
-      <h1 className="title">What's the plan for today?</h1>
+      <h1 className="title"> What 's the plan for today?</h1>{" "}
       <div className="form-input">
         <input
           value={name}
@@ -33,20 +33,15 @@ function ToInput() {
           }}
           className="btn btn-success"
         >
-          Add
-        </button>
+          Add{" "}
+        </button>{" "}
         <div className="filter-btn">
-          <button type="button" class="btn btn-outline-primary">
-            All
-          </button>
-          <button type="button" class="btn btn-outline-primary">
-            Active
-          </button>
-          <button type="button" class="btn btn-outline-primary">
-            Completed
-          </button>
-        </div>
-      </div>
+          {" "}
+          {/* <button type="button" class="btn btn-outline-primary">All</button>
+                    <button type="button" class="btn btn-outline-primary">Active</button>
+                    <button type="button" class="btn btn-outline-primary">Completed</button> */}{" "}
+        </div>{" "}
+      </div>{" "}
     </div>
   );
 }
